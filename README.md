@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/assets/epidive-logo.png" alt="EpiDive logo" width="240">
+</p>
+
 # EpiDive
 
 EpiDive is a scalable CPU/GPU workflow for VP and high-order epistasis analysis from SNP matrices. It supports one-background and batch-background analyses, sample reweighting, GWES-based filtering, deterministic sharding across servers, resumable execution, and memory-aware pairwise computation.

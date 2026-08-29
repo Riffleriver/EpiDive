@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/assets/epidive-logo.png" alt="EpiDive logo" width="240">
+</p>
+
 # EpiDive
 
 EpiDive 是面向 SNP 矩阵的 VP 与高阶上位性分析流程，提供 CPU 和 GPU 两套实现，适用于单个 background、批量 background 以及多服务器分片计算。
