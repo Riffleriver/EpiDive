@@ -1,0 +1,10 @@
+* text=auto eol=lf
+*.sh text eol=lf
+*.slurm text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.csv text eol=lf
+*.parquet binary
+*.png binary
+*.tar.gz binary
+*.whl binary

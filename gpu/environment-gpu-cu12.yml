@@ -1,0 +1,23 @@
+name: epidive-gpu
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip>=23
+  - numpy=1.26
+  - libblas=*=*mkl
+  - mkl
+  - pandas=2.2
+  - scipy>=1.11,<2
+  - numba>=0.59,<0.62
+  - joblib
+  - threadpoolctl
+  - tqdm
+  - pyarrow>=14
+  - polars>=0.20
+  - matplotlib>=3.8
+  - seaborn>=0.13
+  - cupy>=13,<14
+  - cuda-version=12
+  - pip:
+      - .

@@ -1,0 +1,40 @@
+name: Bug report
+description: Report a reproducible EpiDive problem without private data.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      options:
+        - CPU 1.0.5
+        - GPU 1.0.14
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, Python, Conda, BLAS, GPU, driver, CUDA, and CuPy versions as applicable.
+    validations:
+      required: true
+  - type: textarea
+    id: command
+    attributes:
+      label: Minimal command
+      description: Remove private paths and identifiers.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and observed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: traceback
+    attributes:
+      label: Redacted traceback or logs
+      render: text
