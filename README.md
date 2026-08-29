@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/epidive-logo.png" alt="EpiDive logo" width="240">
+  <img src="docs/assets/EpiDive_logo.002.png" alt="EpiDive logo" width="240">
 </p>
 
 # EpiDive
