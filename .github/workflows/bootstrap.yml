@@ -13,12 +13,13 @@ jobs:
   unpack:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Unpack source
         run: |
           tar -xzf EpiDive-source-bootstrap.tar.gz
           rm EpiDive-source-bootstrap.tar.gz
           rm .github/workflows/bootstrap.yml
+          rm .github/workflows/source-check.yml
       - name: Commit source tree
         run: |
           git config user.name github-actions[bot]
