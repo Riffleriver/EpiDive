@@ -1,4 +1,4 @@
-<p align="center">
+<p align="left">
   <img src="docs/assets/EpiDive_logo.002.png" alt="EpiDive logo" width="240">
 </p>
 
